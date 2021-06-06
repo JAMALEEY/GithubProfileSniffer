@@ -95,12 +95,24 @@ color: white;
 
 .userInfo ul li strong {
     font-size: 14.4px;
-    margin-left: 3PX;
+    margin-left: 8px;
 }
 
 
 
+.repo {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 0.5px solid;
+    font-size: 11.2px;
+    padding: 4px 3px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
 
+
+}
 
 
 
