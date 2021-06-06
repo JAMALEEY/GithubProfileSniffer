@@ -58,8 +58,16 @@ color: white;
 
 }
 
+.logogit img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
 
-.picuser{
+.picuser img{
     border-radius: 25%;
     border: 6px solid ;
     height: 150px;
