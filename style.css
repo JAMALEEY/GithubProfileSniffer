@@ -106,11 +106,19 @@ color: white;
     background-color: transparent;
     border: 0.5px solid;
     font-size: 11.2px;
-    padding: 4px 3px;
-    margin-right: 8px;
+    padding: 4px 18px;
+    margin-right: 18px;
     margin-bottom: 8px;
     display: inline-block;
+    border-radius: 45%;
 
+}
+
+
+
+.repo:hover {
+   background-color: rgb(255, 255, 255);
+   color: rgba(192, 188, 88, 1);
 
 }
 
@@ -118,13 +126,9 @@ color: white;
 
 
 
+/* MEDIA QUERY RESPONSIVE WDAKCHI */
 
-
-
-
-
-
-
+/* GRADIENT BG */
 
 @keyframes gradient {
     0% {
