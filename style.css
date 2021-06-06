@@ -98,6 +98,7 @@ color: white;
 
 .userInfo ul li {
     display: flex;
+    margin: 16px;
     align-items: center;
 }
 
