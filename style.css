@@ -5,6 +5,7 @@
 }
 
 body {
+    color: white;
     background-color: ;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -14,10 +15,104 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(56, 192, 180, 1) 10%, rgba(71, 192, 170, 1) 17%, rgba(93, 191, 155, 1) 27%, rgba(117, 190, 138, 1) 38%, rgba(152, 189, 114, 1) 54%, rgba(185, 188, 92, 1) 69%, rgba(207, 188, 77, 1) 79%, rgba(233, 187, 59, 1) 91%, rgba(253, 187, 45, 1) 100%);
+    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(47, 192, 186, 1) 6%, rgba(56, 192, 180, 1) 10%, rgba(71, 192, 170, 1) 17%, rgba(84, 191, 161, 1) 23%, rgba(93, 191, 155, 1) 27%, rgba(108, 190, 144, 1) 34%, rgba(117, 190, 138, 1) 38%, rgba(132, 190, 128, 1) 45%, rgba(152, 189, 114, 1) 54%, rgba(165, 189, 105, 1) 60%, rgba(185, 188, 92, 1) 69%, rgba(192, 188, 88, 1) 72%, rgba(207, 188, 77, 1) 79%, rgba(220, 188, 68, 1) 85%, rgba(233, 187, 59, 1) 91%, rgba(242, 187, 53, 1) 95%, rgba(253, 187, 45, 1) 100%);
     background-size: 400% 400%;
-    animation: gradient 5s ease infinite;
+    animation: gradient 10s ease infinite;
 }
+
+.form {
+    width: 100%;
+    max-width: 700px;
+}
+
+.form input {
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    border: 0.5px solid;
+    border-radius: 10px;
+    color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+    font-family: inherit;
+    font-size: 16px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+.form input:focus {
+    outline: none;
+}
+.form input::placeholder {
+color: white;
+}
+.card {
+    max-width: 800px;
+    background-color: transparent;
+    border: 0.5px solid;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 
+        0 15px 40px rgba(0,0,0, 0.1);
+    display: flex;
+    padding: 48px;
+    margin: 0 24px;
+
+}
+
+
+.picuser{
+    border-radius: 25%;
+    border: 6px solid ;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.05),
+    0 15px 40px rgba(255, 255, 255, 0.1); 
+
+}
+
+.userInfo{
+    color: white;
+    margin-left:    32px;
+
+}
+
+.userInfo h2 {
+    margin-top: 0;
+
+}
+
+.userInfo ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 400px;
+}
+
+.userInfo ul li {
+    display: flex;
+    align-items: center;
+}
+
+.userInfo ul li strong {
+    font-size: 14.4px;
+    margin-left: 3PX;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes gradient {
     0% {
