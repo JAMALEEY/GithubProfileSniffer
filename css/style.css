@@ -122,7 +122,27 @@ color: white;
 
 }
 
+.title {
+    padding: 1px;
+    margin: 25px;
+    text-align: center;
+    color: rgba(192, 188, 88, 1);
+    background: rgb(246 252 255);
+    margin-bottom: 59px;
+}
 
+.title .gif {
+   height : 46px;
+}
+
+/* .title {
+   padding: 10px;
+   margin: 29px;
+    text-align: center;
+    color: rgba(192, 188, 88, 1);
+    background: linear-gradient(to right, rgb(18, 171, 218), rgb(0, 139, 63) );
+
+} */
 
 .repo:hover {
    background-color: rgb(255, 255, 255);

@@ -25,7 +25,7 @@ async function getUser(username) {
 
 
 function creatUserCard(user) {
-    const cardHTML = `
+    const cardHTML = `  <div class="title">  <h1> <img class="gif" src="https://telegra.ph/file/11b74c48b7609507bb830.gif"> Hip Hip ... Hurray We Found Him 🎉 :</h1>  </div>
                 <div class="card">
             <div class="picuser">
                 <img src="${user.avatar_url}" alt="${user.name}" class="">
