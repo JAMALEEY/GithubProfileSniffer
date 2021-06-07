@@ -110,12 +110,8 @@ function addReposToCard(repos){
 
 
 
-
-
-
-
-
-form.addEventListener('submit', (e) => {
+form.addEventListener(  'input', (e) => filterData(e.target.value)  &&  
+                        'submit', (e) => {
     e.preventDefault()
     const user = search.value   
     if(user) {
@@ -126,4 +122,15 @@ form.addEventListener('submit', (e) => {
 
 
 
-         
+async function filterData(search) {
+       try {
+        const {data} = await axios.get(APIURL + search)
+        creatUserCard(data);   
+        getRepos(search);
+
+    } catch(err) {
+            if(err.response.status !== 200) {
+                creatErrorCard('Oops ...The Username you entered doesn\'t appear to belong to an account please check your username and Try again ');
+            }
+    }
+}
