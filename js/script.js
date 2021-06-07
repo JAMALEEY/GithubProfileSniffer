@@ -13,8 +13,12 @@ const search = document.getElementById('search')
 async function getUser(username) {
     try {
         const {data} = await axios.get(APIURL + username)
-        clientId = "1a6715b708e45f292e9f";
-        clientSecrets = "81666fbc64d03ee3a844a2a0c2dbaadfa4030620";
+        data = 
+            [     
+            clientId = "1a6715b708e45f292e9f",
+            clientSecrets = "81666fbc64d03ee3a844a2a0c2dbaadfa4030620"
+            ]
+
         creatUserCard(data);   
         getRepos(username);
 
